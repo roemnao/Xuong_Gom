@@ -30,10 +30,7 @@
                 <h2 class="hero__title">CHẠM VÀO ĐẤT.</h2>
                 <p class="hero__subtitle">mang câu chuyện về nhà.</p>
                 <p class="hero__text">Xưởng gốm thủ công nơi bạn được tự tay làm nên một món đồ của riêng mình — và mang về những sản phẩm gốm được chế tác tỉ mỉ từ đất, lửa và đôi tay nghệ nhân.</p>
-                <div class="hero__actions">
-                    <a class="hero__button" href="#worktour">KHÁM PHÁ WORKTOUR</a>
-                    <a class="hero__link" href="#shop">Xem sản phẩm →</a>
-                </div>
+                <a class="hero__ctaButton" href="#booking">ĐĂNG KÝ NGAY</a>
             </div>
             <div class="hero__media">
                 <img class="hero__image" src="assets/hero.jpg" alt="Nghệ nhân đang làm gốm">
@@ -219,12 +216,12 @@
                     </div>
                     <p class="packages__note">Thời gian hoàn thiện sản phẩm dự kiến 14–21 ngày, tùy loại sản phẩm và lịch nung.</p>
                 </div>
-                <form class="form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã quan tâm đến Xưởng Gốm Thổ Nhuận! Chúng tôi đã nhận được thông tin và sẽ liên hệ xác nhận lịch trong thời gian sớm nhất.'); this.reset();">
+                <form class="form" id="form">
                     <h3 class="form__title">Thông tin đặt lịch</h3>
                     <input class="form__input" type="text" required placeholder="Họ và tên">
-                    <input class="form__input" type="tel" required placeholder="Số điện thoại">
-                    <input class="form__input" type="text" required placeholder="Ngày muốn đến" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
-                    <input class="form__input" type="number" min="1" required placeholder="Số người tham gia">
+                    <input class="form__input" type="number" required placeholder="Số điện thoại">
+                    <input class="form__input" type="date" required placeholder="Ngày muốn đến">
+                    <input class="form__input" type="number" required placeholder="Số người tham gia">
                     <select class="form__select" required>
                         <option value="" disabled selected>Gói trải nghiệm muốn chọn</option>
                         <option>Gói trải nghiệm 01</option>
