@@ -611,8 +611,7 @@ footer{
 .footer__brand{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 100px;
-    line-height: 110px;
+    font-size: 30px;
     letter-spacing: 2px;
     color: #FFFFFF;
 }
